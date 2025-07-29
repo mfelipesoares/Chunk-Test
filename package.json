@@ -1,0 +1,32 @@
+{
+  "name": "chunk-streaming-demo",
+  "version": "1.0.0",
+  "description": "Sistema de streaming de chunks 3D com Three.js",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun server.js",
+    "build": "echo 'Build completed'",
+    "preview": "bun server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "three.js",
+    "webgl",
+    "chunks",
+    "streaming",
+    "3d"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/seu-repositorio.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

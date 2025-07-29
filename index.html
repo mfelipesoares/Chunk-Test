@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ThreeJs</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+      }
+      canvas {
+        display: block;
+      }
+      #info {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: white;
+        background: rgba(0,0,0,0.5);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      Use WASD para mover<br>
+      Mouse para olhar<br>
+      C para alternar câmera<br>
+      Clique para capturar mouse<br>
+      Modo: <span id="camera-mode">3ª Pessoa</span><br>
+      Posição: <span id="position">0, 0 (Chunk: 0, 0)</span><br>
+      Chunks: <span id="chunks">0 carregados, 0 carregando</span>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
